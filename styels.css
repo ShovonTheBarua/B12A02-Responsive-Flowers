@@ -260,7 +260,25 @@ nav li{
     padding: 20px 50px;
 }
 
+.footer-container{
+    max-width: 1120px;
+    margin: 0 auto 50px;
+    justify-content: space-between;
+    display: flex;
+}
 
+.logo-text{
+    max-width: 360px;
+}
+.footer-links ul{
+    gap: 30px;
+    flex-direction: column;
+    display: flex;
+}
+.social-media img{
+    width: 36px;
+    height: 36px;
+}
 
 
 
@@ -381,4 +399,22 @@ nav li{
     .subscribe{
         padding: 10px 12px;
     }
+
+
+
+
+    .footer-container{
+        /* margin: 0 auto 50px; */
+        flex-direction: column;
+        margin: 20px 16px 30px;
+}
+
+    .logo-text{
+        max-width: 360px;
+}
+    .footer-links ul{
+        margin-bottom: 30px;
+}
+
+
 }
