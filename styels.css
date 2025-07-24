@@ -234,17 +234,31 @@ nav li{
 
 /* JOIN  */
 .join-container{
+    
     background-image: url('./assets/news-letter-bg.png');
+    background-repeat: no-repeat;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 100px auto;
+    height: 530px;
+    /* padding: 200px 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .email-input{
     background-color: white;
     width: 644px;
     padding: 15px 20px;
-
 }
-
+.input-box{
+    display: flex;
+}
+.subscribe{
+    
+    background-color: #E95A08;
+    color: white;
+    padding: 20px 50px;
+}
 
 
 
@@ -347,7 +361,24 @@ nav li{
         gap: 20px;
     }
 
+    .join-container{
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        height: 275px; 
+        display: flex;
 
-
-
+    } 
+    .input-box{
+        width: 320px;
+        height: 50px;
+    }
+    .latest-title{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .subscribe{
+        padding: 10px 12px;
+    }
 }
